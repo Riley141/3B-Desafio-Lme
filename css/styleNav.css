@@ -1,0 +1,151 @@
+.Nav{
+    width: 85%;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 13px;
+    margin: auto;
+    box-shadow: 5px 7px 15px #000;
+    list-style: none;
+}
+
+
+.Nav >  li {
+    display: inline-block;
+    position: relative;
+    padding-left: 10%;
+}   
+
+.Nav li a{
+    text-decoration:none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    transition: all 200ms ease;
+}
+
+.Nav  li a:hover {
+    color: white;
+}
+
+.D{
+    height: 45px;
+    width: 45px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    top:-57px;
+    margin-left: 81%;
+    transition: all 300ms ease;
+    
+
+}
+
+
+body::-webkit-scrollbar {
+	width: 6px;
+	background: #D3D0CD;
+	
+}
+body::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: #000;
+	border-right: 2px solid #000; 
+}
+
+.Up{
+    width: 45px;
+    height: 45px;
+}
+
+.ConUp{
+    width: 53px;
+    height: 53px;
+    background: orange;
+    border-radius: 10px;
+    box-shadow: 5px 7px 15px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+.ConUp:hover{
+    background: #fff;
+    cursor: pointer;
+}
+
+
+
+table{
+    width: 100%;
+    font-size: 23px;
+    background: white;
+    border-radius: 13px;
+    
+}
+
+.encabezado hr{
+    width: 100%;
+    margin: auto;
+    
+}
+.tabb {
+    font-size: 20px;
+    width: 100%;
+    border-color: black;
+    
+}
+.p{
+    width: 30%;
+}
+.T2{
+    width: 40%;
+}
+
+.Nums{
+   text-align: center;
+    background-color: orange;
+	border: none;
+	padding: 10px 10px;
+	margin: 8px 0;
+}
+.F_no{
+   text-align: center;
+    color: white;
+    background-color: orange;
+	border: none;
+	padding: 10px 10px;
+	margin: 8px 0;
+}
+.F_co{
+   text-align: center;
+    color: white;
+    background-color: orange;
+	border: none;
+	padding: 10px 10px;
+	margin: 8px 0;
+}
+
+.Beliminar{
+    background-color: red;
+	border: none;
+    color: white;
+	padding: 10px 10px;
+	margin: 8px 0;
+    width: 25%;
+}
+
+.Beliminar:hover{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+
+.imgcarta{
+    height: 95px;
+    width: 95px;
+}
